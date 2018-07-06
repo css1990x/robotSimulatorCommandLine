@@ -1,0 +1,23 @@
+{
+  "name": "robotsimulatorcommandline",
+  "version": "1.0.0",
+  "description": "toy robot simulator",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm test",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/css1990x/robotSimulatorCommandLine.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/css1990x/robotSimulatorCommandLine/issues"
+  },
+  "homepage": "https://github.com/css1990x/robotSimulatorCommandLine#readme",
+  "dependencies": {
+    "readline-sync": "^1.4.9"
+  }
+}
