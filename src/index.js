@@ -119,7 +119,7 @@ robotTraveler.prototype.serviceCommand = function(command){
     this.place(x, y, dir);
   } else {
     if (!valid){
-      console.log(exhortation)
+      console.log(exhortation);
     } else {
       console.log('invalid command');      
     }
@@ -145,5 +145,3 @@ robotTraveler.prototype.init = function(){
 
 var theTraveler = new robotTraveler(); 
 theTraveler.init(); 
-
-module.exports = {theTraveler}; 
