@@ -145,3 +145,5 @@ robotTraveler.prototype.init = function(){
 
 var theTraveler = new robotTraveler(); 
 theTraveler.init(); 
+
+module.exports = {theTraveler}; 
